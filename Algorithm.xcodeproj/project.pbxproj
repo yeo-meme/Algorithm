@@ -15,6 +15,8 @@
 		FF6D883B2A3AB04D00AC3230 /* 1000_map.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1000_map.py; sourceTree = "<group>"; };
 		FF6D883C2A3AB12000AC3230 /* 1000_listAndMap.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1000_listAndMap.py; sourceTree = "<group>"; };
 		FF6D883D2A3AB26200AC3230 /* 1001.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1001.py; sourceTree = "<group>"; };
+		FFF5F1B42A3BEEED009179DC /* 10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10998.swift; sourceTree = "<group>"; };
+		FFF5F1B62A3BF2A6009179DC /* 10998.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 10998.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -46,6 +48,7 @@
 		FF6D882F2A3AA53C00AC3230 /* BJ */ = {
 			isa = PBXGroup;
 			children = (
+				FFF5F1B52A3BF282009179DC /* 10000 */,
 				FF6D88322A3AA57500AC3230 /* 1000 */,
 			);
 			path = BJ;
@@ -54,6 +57,7 @@
 		FF6D88302A3AA54900AC3230 /* BJ */ = {
 			isa = PBXGroup;
 			children = (
+				FFF5F1B72A3BF2BD009179DC /* 10000 */,
 				FF6D88392A3AB01800AC3230 /* 기초 */,
 				FF6D88372A3AAFD600AC3230 /* 사칙연산 */,
 				FF6D88332A3AA57C00AC3230 /* 1000 */,
@@ -73,6 +77,7 @@
 		FF6D88332A3AA57C00AC3230 /* 1000 */ = {
 			isa = PBXGroup;
 			children = (
+				FFF5F1B62A3BF2A6009179DC /* 10998.py */,
 				FF6D88382A3AB00E00AC3230 /* 1000.py */,
 			);
 			path = 1000;
@@ -96,6 +101,21 @@
 			);
 			name = "기초";
 			path = "기초";
+			sourceTree = "<group>";
+		};
+		FFF5F1B52A3BF282009179DC /* 10000 */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5F1B42A3BEEED009179DC /* 10998.swift */,
+			);
+			path = 10000;
+			sourceTree = "<group>";
+		};
+		FFF5F1B72A3BF2BD009179DC /* 10000 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 10000;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
