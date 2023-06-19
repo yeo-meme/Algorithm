@@ -15,6 +15,8 @@
 		FF6D883B2A3AB04D00AC3230 /* 1000_map.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1000_map.py; sourceTree = "<group>"; };
 		FF6D883C2A3AB12000AC3230 /* 1000_listAndMap.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1000_listAndMap.py; sourceTree = "<group>"; };
 		FF6D883D2A3AB26200AC3230 /* 1001.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1001.py; sourceTree = "<group>"; };
+		FFB664F52A3E8C5E00EE57CD /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
+		FFB664F62A3FF52000EE57CD /* 1008.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1008.py; sourceTree = "<group>"; };
 		FFF5F1B42A3BEEED009179DC /* 10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10998.swift; sourceTree = "<group>"; };
 		FFF5F1B62A3BF2A6009179DC /* 10998.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 10998.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 			children = (
 				FF6D88342A3AAC9B00AC3230 /* 1000.swift */,
 				FF6D88352A3AAEB600AC3230 /* 1001.swift */,
+				FFB664F52A3E8C5E00EE57CD /* 1008.swift */,
 			);
 			path = 1000;
 			sourceTree = "<group>";
@@ -88,6 +91,7 @@
 			children = (
 				FF6D88362A3AAF4900AC3230 /* 1000.py */,
 				FF6D883D2A3AB26200AC3230 /* 1001.py */,
+				FFB664F62A3FF52000EE57CD /* 1008.py */,
 			);
 			name = "사칙연산";
 			path = "사칙연산";
