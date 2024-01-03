@@ -8,23 +8,14 @@
 import Foundation
 
 
-let number = readLine()!
-let numberArr = line.split(separator:" ")
-var hour = Int(numberArr[0])!
-var minute = Int(numberArr[1])!
+let input = readLine()!.split(separator: " ").map { Int($0)! }
+let hour = input[0], min = input[1]
+//1. 음수 일때 : hour * 60 + min - 45
+//2. 분으로 24시간을 더하여 양수로 만들어준다 (45분제외한)
 
+let time = hour * 60 + min - 45 < 0 ? 60 * 24 + min - 45 : hour * 60 + min - 45
+print(time / 60, time % 60)
 
-minute -= 45
-if minute < 0 {
-    minute = 60 - (-minute)
-    hour -= 1
-}
-
-if hour < 0 {
-    hour = 24 - (-hour)
-}
-
-print("알림시간 \(hour)시 \(minute)분")
 
 
 //-----------------------------------------2
