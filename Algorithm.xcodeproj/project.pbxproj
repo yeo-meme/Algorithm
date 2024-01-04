@@ -20,6 +20,8 @@
 		FF6D883D2A3AB26200AC3230 /* 1001.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1001.py; sourceTree = "<group>"; };
 		FF8227722B43A5950098857D /* 2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2480.swift; sourceTree = "<group>"; };
 		FF8227A92B4505000098857D /* 14681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14681.swift; sourceTree = "<group>"; };
+		FF8227AA2B464C5E0098857D /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
+		FF8227AB2B464E6B0098857D /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
 		FFB664F52A3E8C5E00EE57CD /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 		FFB664F62A3FF52000EE57CD /* 1008.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 1008.py; sourceTree = "<group>"; };
 		FFE5C7812B3D3E1C007CC310 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 				FF0B20D02B1722A3007A2620 /* 2753.swift */,
 				FFE5C7812B3D3E1C007CC310 /* 2525.swift */,
 				FF8227722B43A5950098857D /* 2480.swift */,
+				FF8227AA2B464C5E0098857D /* 2739.swift */,
 			);
 			path = 2000;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			children = (
 				FFF5F1B42A3BEEED009179DC /* 10998.swift */,
 				FF8227A92B4505000098857D /* 14681.swift */,
+				FF8227AB2B464E6B0098857D /* 10950.swift */,
 			);
 			path = 10000;
 			sourceTree = "<group>";
